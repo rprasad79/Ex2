@@ -1,0 +1,7 @@
+// leading comment
+bool isEven(int n) { { return ((n % 2) = 0); } } // trailing
+int main() {
+  bool b;
+  { b = isEven(10);
+    return ((b & (!isEven(7))) ? 99 : 0); }
+}

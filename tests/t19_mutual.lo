@@ -1,0 +1,3 @@
+int main() { { return (ev(10) ? 1 : 0); } }
+bool ev(int n) { { if ((n = 0)) { return true; } else { return od((n - 1)); } } }
+bool od(int n) { { if ((n = 0)) { return false; } else { return ev((n - 1)); } } }

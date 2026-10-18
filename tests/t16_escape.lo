@@ -1,0 +1,1 @@
+int main() { String s; { s = "a\"b\\c\n"; s = (s + "x"); return ((s = "a\"b\\c\nx") ? 1 : 0); } }

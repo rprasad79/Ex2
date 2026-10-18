@@ -1,0 +1,3 @@
+int main() { String s; { s = greet("Bob", 2); return len(s); } }
+String greet(String n, int k) { { return (("hi " + n) * k); } }
+int len(String s) { int i; { i = 0; while ((!(s = ""))) { s = (~(~s)); i = (i + 1); break; } return i; } }

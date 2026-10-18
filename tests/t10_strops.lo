@@ -1,0 +1,12 @@
+int main() {
+  String s; int r;
+  { s = ("ab" * 3);
+    r = 0;
+    if ((s = "ababab")) { r = (r + 1); } else { ; }
+    if (((~"abc") = "cba")) { r = (r + 10); } else { ; }
+    if (("apple" < "banana")) { r = (r + 100); } else { ; }
+    if (("b" > "abc")) { r = (r + 1000); } else { ; }
+    if (("" < "a")) { r = (r + 10000); } else { ; }
+    if (("abc" > "abc")) { r = (r + 100000); } else { ; }
+    return r; }
+}
